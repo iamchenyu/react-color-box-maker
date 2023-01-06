@@ -1,0 +1,13 @@
+.Box {
+  position: relative;
+}
+
+.Box-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  font-size: large;
+  background-color: transparent;
+  padding: 5px 10px 5px 10px;
+}

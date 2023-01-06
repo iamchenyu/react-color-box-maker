@@ -1,0 +1,25 @@
+.NewBoxForm {
+  margin: 30px auto;
+}
+.NewBoxForm-input-group {
+  margin: 10px auto;
+}
+
+.NewBoxForm-input-group input {
+  margin: auto 10px auto 10px;
+}
+
+.NewBoxForm-input-group span {
+  margin: auto 0;
+}
+
+p {
+  color: red;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: small;
+}
+
+button {
+  margin: 5px auto 0 auto;
+}

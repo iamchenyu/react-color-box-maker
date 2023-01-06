@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Make A Color Box!
+    </h1>
+    <form
+      class="NewBoxForm"
+    >
+      <div
+        class="NewBoxForm-input-group"
+      >
+        <label
+          for="color"
+        >
+          Color
+        </label>
+        <input
+          id="color"
+          name="color"
+          type="color"
+          value="#7B68EE"
+        />
+      </div>
+      <div
+        class="NewBoxForm-input-group"
+      >
+        <label
+          for="width"
+        >
+          Width
+        </label>
+        <input
+          id="width"
+          name="width"
+          type="number"
+          value="200"
+        />
+        <span>
+          px
+        </span>
+      </div>
+      <div
+        class="NewBoxForm-input-group"
+      >
+        <label
+          for="height"
+        >
+          Height
+        </label>
+        <input
+          id="height"
+          name="height"
+          type="number"
+          value="200"
+        />
+        <span>
+          px
+        </span>
+      </div>
+      <button
+        data-testid="submit-form-button"
+      >
+        Create a box
+      </button>
+    </form>
+    <div
+      class="BoxList"
+    >
+      <div
+        class="Box"
+        data-testid="DarkSeaGreen"
+        style="background-color: DarkSeaGreen; width: 150px; height: 150px;"
+      >
+        <button
+          class="Box-button"
+          data-testid="DarkSeaGreen-button"
+          role="button"
+        >
+          X
+        </button>
+      </div>
+      <div
+        class="Box"
+        data-testid="LavenderBlush"
+        style="background-color: LavenderBlush; width: 100px; height: 200px;"
+      >
+        <button
+          class="Box-button"
+          data-testid="LavenderBlush-button"
+          role="button"
+        >
+          X
+        </button>
+      </div>
+      <div
+        class="Box"
+        data-testid="Lavender"
+        style="background-color: Lavender; width: 300px; height: 200px;"
+      >
+        <button
+          class="Box-button"
+          data-testid="Lavender-button"
+          role="button"
+        >
+          X
+        </button>
+      </div>
+      <div
+        class="Box"
+        data-testid="LightSalmon"
+        style="background-color: LightSalmon; width: 200px; height: 100px;"
+      >
+        <button
+          class="Box-button"
+          data-testid="LightSalmon-button"
+          role="button"
+        >
+          X
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
